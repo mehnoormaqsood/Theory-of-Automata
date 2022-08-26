@@ -1,0 +1,13 @@
+string mystring = ("theory" + " of ") + "automata"
+int a = 1
+int b = 4
+b++
+print(mystring)
+float c = (1.5+0.5+2)
+float determinant = b ^ 2 - 4 * a * c
+float quadratic_root1 = (-b + determinant^(1/2)) / ( 2.0*a )
+print(quadratic_root1)
+bool d = False
+print(!True == (!(!d)) && (True != 0))
+print(4 + "A")
+print("Hi")

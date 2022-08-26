@@ -1,0 +1,27 @@
+struct BookStruct {
+ string title
+ string author
+ string subject
+ int book_id
+};
+BookStruct Book1
+BookStruct Book2
+
+Book1.title = "The Theory of Computation"
+Book1.author = "Michael Sipser" 
+Book1.subject = "Theory of Computation"
+Book1.book_id = 45315
+Book2.title = "Race Against the Machine"
+Book2.author = "Andrew McAfee" 
+Book2.subject = "Digital Technology"
+Book2.book_id = 92315
+print(Book1.title)
+print(Book1.author)
+print(Book1.subject)
+print(Book1.book_id)
+print("")
+print(Book2.title)
+print(Book2.author)
+print(Book2.subject)
+print(Book2.book_id)
+print(Book2.publisher)
